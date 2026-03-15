@@ -1,4 +1,4 @@
-A rudimentary blog template built from scratch using PHP, Javascript, HTML and CSS.
+A rudimentary blog template built from scratch using PHP, Javascript, HTML and CSS. Compatible with MySQL.
 
 It has the following features:
 

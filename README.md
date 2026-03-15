@@ -13,3 +13,5 @@ It also features a post editor beyond the scope of this website.
 The blog is free to use and tamper with in any way imaginable. It's meant as a starting base and not as a final product.
 
 The code is available as a Release.
+
+userPasswords.txt contains all the admins and user configured with the original database.

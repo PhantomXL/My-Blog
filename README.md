@@ -8,6 +8,8 @@ It has the following features:
 4) Managing Users (For Admins)
 5) Managing Comments (For Admins)
 
-It also features an post editor that beyond the scope of this website.
+It also features a post editor that beyond the scope of this website.
 
 The blog is free to use and tamper with in any way imaginable. It's meant as a starting base and not as a final product.
+
+The code is available as a Release.

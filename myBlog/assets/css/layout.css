@@ -1,0 +1,84 @@
+/* Containers */
+.container, main {
+    flex: 1 0 auto;
+}
+
+/* Header */
+.site-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    padding: 15px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Logo */
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.header-logo-img {
+    height: 50px;
+    border-radius: 6px;
+}
+
+.header-logo-text {
+    font-size: 1.5rem;
+    color: black;
+}
+
+/* Header buttons */
+.header-view-posts {
+    flex: 0.4;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    padding: 12px 20px;
+    background: rgba(52,152,219,0.8);
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* Navigation */
+.header-nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-btn {
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-home { background: #27ae60; }
+.nav-dashboard { background: #f39c12; }
+.nav-logout { background: #e74c3c; }
+.nav-login {
+    background: #f1c40f;
+    color: #2c3e50;
+}
+
+/* Footer */
+.site-footer {
+    width: 100%;
+    background-color: indigo;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
